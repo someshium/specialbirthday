@@ -1,7 +1,9 @@
 
 
 
-function handleClick(){
+function handleClick(e){
+
+    e.preventDefault()
 
     let birthday  = document.getElementById("birthday");
     let luckyno = document.getElementById("luckyno");
